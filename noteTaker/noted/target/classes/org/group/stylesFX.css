@@ -1,0 +1,199 @@
+TextArea{ 
+    -fx-focus-color:#202226;
+    -fx-faint-focus-color: #202226;
+    -fx-text-fill: white;
+    -fx-text-box-border: transparent;
+}
+
+TextArea .content { 
+    -fx-background-color: #202226;
+    background-color:#202226;
+    -fx-text-box-border: #202226;
+    -fx-focus-text-box-border: #202226;
+    -fx-background-radius:0;  
+}
+
+#mainContainer { 
+    -fx-background-color: #202226;
+    background-color:#202226;
+}
+
+
+#mainMenuBar { 
+    background-color: #202226;
+    -fx-background-color:#202226;
+}
+
+.menu .label { 
+    -fx-text-fill:white;
+}
+
+#exitButton { 
+    -fx-float:left;
+    float: left;
+}
+
+#exitButton .label { 
+    -fx-text-fill: white;
+  
+}
+
+.menu-item .label{ 
+    -fx-text-fill: black;
+}
+
+.menu:hover { 
+    -fx-background-color:#262729;
+    background-color: #262729;
+}
+
+.menu { 
+    background-color: #202226;
+    -fx-background-color:#202226;
+}
+
+.menu-item:hover { 
+    -fx-background-color:#363636;
+    background-color: #363636;
+}
+
+.menu-item { 
+    background-color: white;
+    -fx-background-color: white;
+}
+
+.menu .active{ 
+    -fx-background-color:#262729;
+    background-color: #262729;
+}
+
+#minButton , #maxButton, #exitButton {
+    background-color: #202226;
+    -fx-background-color:#202226;
+    -fx-text-fill:white;
+    -fx-focus-color:white;
+}
+
+
+#minButton:hover , #maxButton:hover , #exitButton:hover { 
+    -fx-background-color:#262729;
+    background-color: #262729;
+}
+
+
+#mainBorderPane{ 
+        background-color: #202226;
+        -fx-background-color:#202226;
+}
+
+#mainMenuHbox { 
+    background-color: #202226;
+    -fx-background-color:#202226;
+}
+
+#mainMenuHbox .content { 
+    background-color: #202226;
+    -fx-background-color:#202226;
+}
+
+#exitButton:hover { 
+    -fx-text-fill:red;
+}
+
+#resizePaneBottom{  
+    -fx-cursor:s-resize;
+    cursor: s-resize;
+}
+
+
+#resizePaneRight{  
+    -fx-cursor:e-resize;
+    cursor: e-resize;
+}
+
+
+#resizePaneLeft{  
+    -fx-cursor:w-resize;
+    cursor: w-resize;
+}
+
+#tabPaneHolder{ 
+    -fx-background-color: #202226;
+    background-color:#202226;
+    -fx-text-box-border: #202226;
+} 
+
+#tabPane .tab { 
+    -fx-background-color: #272729;
+    background-color:#272729;
+    -fx-text-base-color: white;
+    -fx-focus-color:transparent;
+}
+
+#tabPane .tab:selected {
+    -fx-background-color: #444444; 
+    background-color: #444444; 
+}
+
+#tabPane .tab .label{
+    -fx-text-fill:white;
+}
+
+#tabPane .tab-header-area .tab-header-background {
+    -fx-background-color: #202226;
+    background-color: #202226;
+}
+
+.context-menu {
+  -fx-background-color: #202226;
+  background-color: #202226;
+}
+
+
+
+
+.scroll-bar:vertical .increment-button ,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color :transparent;
+    background-color: white;
+    -fx-background-radius : 0.0em;
+    -fx-padding :0.0 10.0 0.0 0.0;
+    padding:0;
+
+}
+
+ .scroll-bar .increment-arrow,
+ .scroll-bar .decrement-arrow{
+    -fx-shape : " ";    
+    -fx-padding :0.15em 0.0;
+    padding:0;
+}
+
+ .scroll-bar:vertical .increment-arrow,
+ .scroll-bar:vertical .decrement-arrow{
+    -fx-shape : " ";    
+    -fx-padding :0.0 0.15em;
+    padding:0;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color :derive(black,90.0%);
+    background-color: rgb(80, 80, 80);
+    -fx-background-insets : 2.0, 0.0, 0.0;
+    -fx-background-radius : 2.0em;
+}
+
+.scroll-bar:horizontal .thumb:hover,
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color :derive(#4D4C4F,10.0%);
+    background-color: white;
+    -fx-background-insets : 2.0, 0.0, 0.0;
+    -fx-background-radius : 2.0em;
+}
+
+
+
+
+
+
